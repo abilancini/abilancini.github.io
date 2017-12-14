@@ -11,8 +11,10 @@ RUN npm install
 ADD index.html index.html
 ADD src src
 ADD style style
+ADD server.js server.js
+ADD webpack.config.js webpack.config.js
 
 ARG GIT_COMMIT_HASH=unknown
 LABEL GIT_COMMIT=$GIT_COMMIT_HASH
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "prod"]

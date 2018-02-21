@@ -15,7 +15,8 @@ export default class NameTagMaker extends Component {
       question: '',
       answer: '',
       disc: '',
-      disc_color: '#9932CC'
+      disc_color: '#9932CC',
+      text_color: 'white'
     };
 
   }
@@ -43,7 +44,7 @@ export default class NameTagMaker extends Component {
   }
 
   colorChange = (childData) => {
-    this.setState({ disc_color: childData })
+    this.setState({ disc_color: childData, text_color: childData })
   }
 
   render() {
@@ -65,6 +66,7 @@ export default class NameTagMaker extends Component {
             answer={this.state.answer}
             disc={this.state.disc}
             color={this.state.disc_color}
+            text_color={this.state.text_color}
           />
         </div>
       </div>

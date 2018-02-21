@@ -1,14 +1,10 @@
 #circle {
   position: relative;
   margin: 1px auto;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+  width: 62px;
+  height: 62px;
+  border-radius: 32px;
   float: right;
-}
-
-.si {
-
 }
 
 #text {
@@ -17,21 +13,33 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+  font-size: 175%;
+  font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
 }
 
 .titleText {
-  font-size: 250%;
-  font-weight: bold;
+  font-size: 400%;
+  font-weight: 500;
+  font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+  line-height: normal;
 }
 
 .NameTagBox {
   height: 200px;
-  width: 500px;
+  width: 585px;
   text-align: center;
   padding: 5px;
   border: 5px solid #000;
   border-radius: 4px;
   position: relative;
+  color: #000000;
+}
+
+.nonTitleText {
+  font-weight: 300;
+  font-size: 200%;
+  font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+  margin-top: 15px;
 }
 
 .NameTagBox:before {

@@ -20,7 +20,7 @@
 .titleText {
   font-size: 400%;
   font-weight: 500;
-  font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+  font-family: 'Calibri','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
   line-height: normal;
 }
 
@@ -36,9 +36,9 @@
 }
 
 .nonTitleText {
-  font-weight: 300;
+  font-weight: 50;
   font-size: 200%;
-  font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+  font-family: 'Calibri','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
   margin-top: 15px;
 }
 
